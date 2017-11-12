@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{The fLBM model}{7}{0}{1}
+\beamer@sectionintoc {2}{Inference with SEM-Gibbs algorithm}{11}{0}{2}
+\beamer@sectionintoc {3}{Numerical experiments}{18}{0}{3}
+\beamer@sectionintoc {4}{Application on EDF consumption curves}{24}{0}{4}
