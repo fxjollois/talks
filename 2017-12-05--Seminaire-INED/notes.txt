@@ -1,0 +1,9 @@
+Titre : un graphique vaut-il mieux qu'un long discours ?
+
+Exemples : Londres / Discovery / autres ? (Campagne russie / PixelFrance)
+Qu'est-ce qu'une dataviz ? Pour qui en faire ?
+Intérêts ?
+Inconvénients ?
+Quels outils/compétences ?
+
+Comment la faire ?
