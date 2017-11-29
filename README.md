@@ -1,5 +1,3 @@
-# talks
-
 ## 2017
 
 | Lieu | Date | Titre |
