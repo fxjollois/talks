@@ -1,11 +1,11 @@
-## 2017
-
 <style>
 td {
-  color: red;
-  min-width: 100px;
+  min-width: 80px;
 }
 </style>
+
+
+## 2017
 
 | Lieu | Date | Titre |
 |:----|-----:|:--|
