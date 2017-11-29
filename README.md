@@ -1,6 +1,13 @@
 ## 2017
 
-| Lieu | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Titre |
+<style>
+td {
+  color: red;
+  min-width: 100px;
+}
+</style>
+
+| Lieu | Date | Titre |
 |:----|-----:|:--|
 | [INED](2017-12-05--Seminaire-INED/) | 5 dec 2017 | Un graphique vaut-il mieux qu'un long discours ? |
 | [MSDMA](2017-11-24--Seminaire-MSDMA/FunLBM.pdf) | 24 nov 2017 | Functional Latent Block Model  for functional data co-clustering |
