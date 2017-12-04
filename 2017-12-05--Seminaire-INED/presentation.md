@@ -20,18 +20,57 @@ Quelques contraintes :
 - **Interactivité** : idéalement, l’utilisateur doit pouvoir naviguer dans le résultat pour mieux comprendre et analyser
 
 ---
+class: middle, center, inverse
 
-# Quelques exemples de dataviz connues
+# Attention au **tout numérique** dans l'analyse
 
-Deux exemples classiques
+---
 
-- Balance commerciale du **Royaume-Uni**
+# Quartet d'Anscombe
+
+.left-column30[
+.small[4 séries statistiques de 11 points (x, y), ayant les mêmes valeurs pour les mesures suivantes :
+
+- moyenne de X
+- moyenne de Y
+- variance de X
+- variance de Y
+- corrélation entre X et Y
+- équation de la droite de régression
+- somme des carrés des erreurs
+
+Pas de distinction a priori entre les séries
+]]
+
+--
+
+.right-column70[ ![](Anscombe.png) ]
+
+
+---
+
+# Quelques exemples de dataviz
+
+.left-column50[
+Trois exemples de l'**intérêt** d'un graphique
+
+- Balance commerciale du Royaume-Uni
 - Campagne de Russie
+- Richesse en France en 2014
 
-Deux démonstration de l'intérêt d'un graphique
+Deux démonstrations de la **nécessité** d'un bon graphique
 
 - Epidémie de choléra à Londres
-- Navette challenger 
+- Navette challenger
+]
+
+.right-column50[  
+Trois cas de **nuisance** graphique
+
+- Une erreur de représentation
+- Un mauvais choix de graphique
+- Peut-on parler seulement d'erreur ?
+]
 
 ---
 class: inverse, middle, center
@@ -44,7 +83,7 @@ class: inverse, middle, center
 .left-column30[
 # Payfair - 1786
 
-Représentation de la balance commerciale (importation vs exportation) du Royaume-Uni vers le Danemark et la Norvège 
+Représentation de la balance commerciale (importation vs exportation) du Royaume-Uni vers le Danemark et la Norvège
 ]
 
 
@@ -62,7 +101,7 @@ Effectifs de l’armée et température lors de la retraite de la campagne de Ru
 
 # Partage des richesses
 
-Article paru sur le blog Les Décodeurs sur LeMonde.fr ([article](http://www.lemonde.fr/les-decodeurs/article/2015/01/19/la-concentration-des-richesses-dans-le-monde-en-graphiques_4558914_4355770.html))
+Article paru sur le blog Les Décodeurs sur LeMonde.fr .footnote[[Lien vers l'article](http://www.lemonde.fr/les-decodeurs/article/2015/01/19/la-concentration-des-richesses-dans-le-monde-en-graphiques_4558914_4355770.html)]
 
 .left-column50[ ![](les-decodeurs-riches.png) ]
 
@@ -86,7 +125,7 @@ class: inverse, middle, center
 
 --
 
-### Problème : 
+### Problème :
 
 - 31 août 1854 : épidémie majeure de choléra dans le quartier Soho
     - Dans les trois jours suivants, 127 personnes meurent
@@ -133,8 +172,8 @@ Quelle prévision ?
 
 --
 
-.right-column70[ 
-![](Challenger.png) 
+.right-column70[
+![](Challenger.png)
 
 Extrapolation possible, et choix sûrement différent sur le lancement
 
@@ -144,29 +183,52 @@ Tufte parle de **chartjunk** ou **bruit graphique**
 ---
 class: middle, center, inverse
 
-# Attention donc au **tout numérique** dans l'analyse
+# Un **mauvais** graphique peut **nuire** au discours
+
+(Très bon) Site critique de dataviz : [**Junk Charts**](http://junkcharts.typepad.com/junk_charts/)
 
 ---
 
-# Quartet d'Anscombe
+# Que représente-t'on réellement ?
 
-.left-column30[
-.small[4 séries statistiques de 11 points (x, y), ayant les mêmes valeurs pour les mesures suivantes :
+.footnote[[Lien vers l'analyse du graphique](http://junkcharts.typepad.com/junk_charts/2015/01/why-you-need-a-second-pair-of-eyes.html
+)]
 
-- moyenne de X
-- moyenne de Y
-- variance de X
-- variance de Y
-- corrélation entre X et Y
-- équation de la droite de régression
-- somme des carrés des erreurs
+Eléments graphiques (*i.e.* personnages) avec une taille dépendant du **label** et non pas des **données**
 
-Pas de distinction a priori entre les séries
-]]
+![](labels-original.png)
+
+---
+# Mauvais choix de graphique
+
+.left-column50[ On ne voit ici que les **volumes**
+
+![](wsj-original.png) ]
 
 --
 
-.right-column70[ ![](Anscombe.png) ]
+.right-column50[ Alors que c'est l'**évolution** qui nous intéresse
+
+![](wsj-redrawn.png)
+
+.footnote[[Lien vers l'analyse du graphique](http://junkcharts.typepad.com/junk_charts/2017/05/making-people-jump-over-hoops.html)]
+]
+
+---
+# Erreur ou manipulation ?
+
+.footnote[[Lien vers l'analyse du graphique](http://junkcharts.typepad.com/junk_charts/2017/02/butcher-which-part-of-the-leg-do-you-want-dataviz-folly.html)]
+
+.left-column50[ Taille des barres **étonnantes**...
+
+![](ABCNews-original.png) ]
+
+--
+
+.right-column50[ Version **corrigée**
+
+![](ABCNews-redrawn.png) ]
+
 
 ---
 class: middle, center, inverse
@@ -175,19 +237,19 @@ class: middle, center, inverse
 
 ---
 
-# Principes selon E. Tufte 
+# Principes selon E. Tufte
 
 .footnote[The Visual Display of Quantitative Information (1983)]
 
-- Présenter les données
-- Induire le lecteur à penser au contenu plutôt qu’au reste (méthodologie, design, …)
-- Éviter les distorsions
-- Présenter beaucoup de choses dans peu d’espace
-- Rendre des grand jeux de données cohérents
-- Encourager la comparaison des différentes données
-- Révéler les données à plusieurs niveaux de détails (du plus large au plus fin)
-- Servir un but précis et raisonnable (description, exploration, …)
-- Être intégré avec une description textuelle et statistique des données
+- **Présenter** les données
+- Induire le lecteur à penser au **contenu** plutôt qu'au reste (méthodologie, design, ...)
+- Éviter les **distorsions**
+- Présenter beaucoup de choses dans peu d'espace
+- Rendre des grand jeux de données **cohérents**
+- Encourager la **comparaison** des différentes données
+- Révéler les données à plusieurs niveaux de **détails** (du plus large au plus fin)
+- Servir un **but précis** et raisonnable (description, exploration, ...)
+- Être **intégré** avec une description textuelle et statistique des données
 
 ---
 class: middle, center, inverse
@@ -202,13 +264,13 @@ Hans Rosling, sur les données de revenu et d'espérance de vie depuis 1800
 
 <https://www.gapminder.org/tools/>
 
-- Visualisation 
+- Visualisation
     - d’une année
     - d’une animation déroulant l’évolution sur 200 ans
 - Représentations possibles :   
     - Nuage de points
     - Carte géographiques
-- Focus sur 
+- Focus sur
     - une zone géographique
     - un pays particulier
 
