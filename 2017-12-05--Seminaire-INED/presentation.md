@@ -233,7 +233,7 @@ Eléments graphiques (*i.e.* personnages) avec une taille dépendant du **label*
 ---
 class: middle, center, inverse
 
-# Pas de théorie mais du bon sens
+# Beaucoup de bon sens
 
 ---
 
