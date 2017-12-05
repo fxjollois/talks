@@ -81,7 +81,7 @@ class: inverse, middle, center
 ---
 
 .left-column30[
-# Payfair - 1786
+# Playfair - 1786
 
 Représentation de la balance commerciale (importation vs exportation) du Royaume-Uni vers le Danemark et la Norvège
 ]
