@@ -231,11 +231,6 @@ Eléments graphiques (*i.e.* personnages) avec une taille dépendant du **label*
 
 
 ---
-class: middle, center, inverse
-
-# Beaucoup de bon sens
-
----
 
 # Principes selon E. Tufte
 
