@@ -5,6 +5,12 @@ td {
 </style>
 
 
+## 2018
+
+| Lieu | Date | Titre |
+|:----|-----:|:--|
+| [MAP5](2018-03-23--Seminaire-MAP5/FunLBM.pdf) | 23 mar 2018 | Functional Latent Block Model  for functional data co-clustering |
+
 ## 2017
 
 | Lieu | Date | Titre |
