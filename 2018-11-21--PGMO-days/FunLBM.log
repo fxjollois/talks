@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.12)  12 NOV 2017 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.12)  9 NOV 2018 09:19
 entering extended mode
-**./FunLBM.tex
-(FunLBM.tex
+**C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/F
+unLBM.tex
+
+(C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/Fu
+nLBM.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamer.cls"
@@ -820,9 +823,34 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip62
 \algorithmicindent=\skip63
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count174
+\lst@gtempboxa=\box88
+\lst@token=\toks52
+\lst@length=\count175
+\lst@currlwidth=\dimen270
+\lst@column=\count176
+\lst@pos=\count177
+\lst@lostspace=\dimen271
+\lst@width=\dimen272
+\lst@newlines=\count178
+\lst@lineno=\count179
+\lst@maxwidth=\dimen273
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count180
+\lst@skipnumbers=\count181
+\lst@framebox=\box89
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\multimedia\multimedia.sty"
 Package: multimedia 2012/05/02 ver 0.02
-\mm@movie=\count174
+\mm@movie=\count182
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\media9\media9.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
@@ -830,24 +858,24 @@ Package: expl3 2017/09/18 L3 programming layer (loader)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
 Package: expl3 2017/09/18 L3 programming layer (code)
-\c_max_int=\count175
-\l_tmpa_int=\count176
-\l_tmpb_int=\count177
-\g_tmpa_int=\count178
-\g_tmpb_int=\count179
-\g__intarray_font_int=\count180
-\g__prg_map_int=\count181
-\c_log_iow=\count182
-\l_iow_line_count_int=\count183
-\l__iow_line_target_int=\count184
-\l__iow_one_indent_int=\count185
-\l__iow_indent_int=\count186
-\c_zero_dim=\dimen270
-\c_max_dim=\dimen271
-\l_tmpa_dim=\dimen272
-\l_tmpb_dim=\dimen273
-\g_tmpa_dim=\dimen274
-\g_tmpb_dim=\dimen275
+\c_max_int=\count183
+\l_tmpa_int=\count184
+\l_tmpb_int=\count185
+\g_tmpa_int=\count186
+\g_tmpb_int=\count187
+\g__intarray_font_int=\count188
+\g__prg_map_int=\count189
+\c_log_iow=\count190
+\l_iow_line_count_int=\count191
+\l__iow_line_target_int=\count192
+\l__iow_one_indent_int=\count193
+\l__iow_indent_int=\count194
+\c_zero_dim=\dimen274
+\c_max_dim=\dimen275
+\l_tmpa_dim=\dimen276
+\l_tmpb_dim=\dimen277
+\g_tmpa_dim=\dimen278
+\g_tmpb_dim=\dimen279
 \c_zero_skip=\skip64
 \c_max_skip=\skip65
 \l_tmpa_skip=\skip66
@@ -860,169 +888,169 @@ Package: expl3 2017/09/18 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count187
-\c__fp_leading_shift_int=\count188
-\c__fp_middle_shift_int=\count189
-\c__fp_trailing_shift_int=\count190
-\c__fp_big_leading_shift_int=\count191
-\c__fp_big_middle_shift_int=\count192
-\c__fp_big_trailing_shift_int=\count193
-\c__fp_Bigg_leading_shift_int=\count194
-\c__fp_Bigg_middle_shift_int=\count195
-\c__fp_Bigg_trailing_shift_int=\count196
-\c__fp_rand_size_int=\count197
-\c__fp_rand_four_int=\count198
-\c__fp_rand_eight_int=\count199
-\l__sort_length_int=\count266
-\l__sort_min_int=\count267
-\l__sort_top_int=\count268
-\l__sort_max_int=\count269
-\l__sort_true_max_int=\count270
-\l__sort_block_int=\count271
-\l__sort_begin_int=\count272
-\l__sort_end_int=\count273
-\l__sort_A_int=\count274
-\l__sort_B_int=\count275
-\l__sort_C_int=\count276
-\l__tl_build_start_index_int=\count277
-\l__tl_build_index_int=\count278
-\l__tl_analysis_normal_int=\count279
-\l__tl_analysis_index_int=\count280
-\l__tl_analysis_nesting_int=\count281
-\l__tl_analysis_type_int=\count282
-\l__regex_internal_a_int=\count283
-\l__regex_internal_b_int=\count284
-\l__regex_internal_c_int=\count285
-\l__regex_balance_int=\count286
-\l__regex_group_level_int=\count287
-\l__regex_mode_int=\count288
-\c__regex_cs_in_class_mode_int=\count289
-\c__regex_cs_mode_int=\count290
-\l__regex_catcodes_int=\count291
-\l__regex_default_catcodes_int=\count292
-\c__regex_catcode_D_int=\count293
-\c__regex_catcode_S_int=\count294
-\c__regex_catcode_L_int=\count295
-\c__regex_catcode_O_int=\count296
-\c__regex_catcode_A_int=\count297
-\c__regex_all_catcodes_int=\count298
-\l__regex_show_lines_int=\count299
-\l__regex_min_state_int=\count300
-\l__regex_max_state_int=\count301
-\l__regex_left_state_int=\count302
-\l__regex_right_state_int=\count303
-\l__regex_capturing_group_int=\count304
-\l__regex_min_pos_int=\count305
-\l__regex_max_pos_int=\count306
-\l__regex_curr_pos_int=\count307
-\l__regex_start_pos_int=\count308
-\l__regex_success_pos_int=\count309
-\l__regex_curr_char_int=\count310
-\l__regex_curr_catcode_int=\count311
-\l__regex_last_char_int=\count312
-\l__regex_case_changed_char_int=\count313
-\l__regex_curr_state_int=\count314
-\l__regex_step_int=\count315
-\l__regex_min_active_int=\count316
-\l__regex_max_active_int=\count317
-\l__regex_replacement_csnames_int=\count318
-\l__regex_match_count_int=\count319
-\l__regex_min_submatch_int=\count320
-\l__regex_submatch_int=\count321
-\l__regex_zeroth_submatch_int=\count322
-\g__debug_trace_regex_int=\count323
-\c_empty_box=\box88
-\l_tmpa_box=\box89
-\l_tmpb_box=\box90
-\g_tmpa_box=\box91
-\g_tmpb_box=\box92
-\l__box_top_dim=\dimen276
-\l__box_bottom_dim=\dimen277
-\l__box_left_dim=\dimen278
-\l__box_right_dim=\dimen279
-\l__box_top_new_dim=\dimen280
-\l__box_bottom_new_dim=\dimen281
-\l__box_left_new_dim=\dimen282
-\l__box_right_new_dim=\dimen283
-\l__box_internal_box=\box93
-\l__coffin_internal_box=\box94
-\l__coffin_internal_dim=\dimen284
-\l__coffin_offset_x_dim=\dimen285
-\l__coffin_offset_y_dim=\dimen286
-\l__coffin_x_dim=\dimen287
-\l__coffin_y_dim=\dimen288
-\l__coffin_x_prime_dim=\dimen289
-\l__coffin_y_prime_dim=\dimen290
-\c_empty_coffin=\box95
-\l__coffin_aligned_coffin=\box96
-\l__coffin_aligned_internal_coffin=\box97
-\l_tmpa_coffin=\box98
-\l_tmpb_coffin=\box99
-\l__coffin_display_coffin=\box100
-\l__coffin_display_coord_coffin=\box101
-\l__coffin_display_pole_coffin=\box102
-\l__coffin_display_offset_dim=\dimen291
-\l__coffin_display_x_dim=\dimen292
-\l__coffin_display_y_dim=\dimen293
-\l__coffin_bounding_shift_dim=\dimen294
-\l__coffin_left_corner_dim=\dimen295
-\l__coffin_right_corner_dim=\dimen296
-\l__coffin_bottom_corner_dim=\dimen297
-\l__coffin_top_corner_dim=\dimen298
-\l__coffin_scaled_total_height_dim=\dimen299
-\l__coffin_scaled_width_dim=\dimen300
+\l_keys_choice_int=\count195
+\c__fp_leading_shift_int=\count196
+\c__fp_middle_shift_int=\count197
+\c__fp_trailing_shift_int=\count198
+\c__fp_big_leading_shift_int=\count199
+\c__fp_big_middle_shift_int=\count266
+\c__fp_big_trailing_shift_int=\count267
+\c__fp_Bigg_leading_shift_int=\count268
+\c__fp_Bigg_middle_shift_int=\count269
+\c__fp_Bigg_trailing_shift_int=\count270
+\c__fp_rand_size_int=\count271
+\c__fp_rand_four_int=\count272
+\c__fp_rand_eight_int=\count273
+\l__sort_length_int=\count274
+\l__sort_min_int=\count275
+\l__sort_top_int=\count276
+\l__sort_max_int=\count277
+\l__sort_true_max_int=\count278
+\l__sort_block_int=\count279
+\l__sort_begin_int=\count280
+\l__sort_end_int=\count281
+\l__sort_A_int=\count282
+\l__sort_B_int=\count283
+\l__sort_C_int=\count284
+\l__tl_build_start_index_int=\count285
+\l__tl_build_index_int=\count286
+\l__tl_analysis_normal_int=\count287
+\l__tl_analysis_index_int=\count288
+\l__tl_analysis_nesting_int=\count289
+\l__tl_analysis_type_int=\count290
+\l__regex_internal_a_int=\count291
+\l__regex_internal_b_int=\count292
+\l__regex_internal_c_int=\count293
+\l__regex_balance_int=\count294
+\l__regex_group_level_int=\count295
+\l__regex_mode_int=\count296
+\c__regex_cs_in_class_mode_int=\count297
+\c__regex_cs_mode_int=\count298
+\l__regex_catcodes_int=\count299
+\l__regex_default_catcodes_int=\count300
+\c__regex_catcode_D_int=\count301
+\c__regex_catcode_S_int=\count302
+\c__regex_catcode_L_int=\count303
+\c__regex_catcode_O_int=\count304
+\c__regex_catcode_A_int=\count305
+\c__regex_all_catcodes_int=\count306
+\l__regex_show_lines_int=\count307
+\l__regex_min_state_int=\count308
+\l__regex_max_state_int=\count309
+\l__regex_left_state_int=\count310
+\l__regex_right_state_int=\count311
+\l__regex_capturing_group_int=\count312
+\l__regex_min_pos_int=\count313
+\l__regex_max_pos_int=\count314
+\l__regex_curr_pos_int=\count315
+\l__regex_start_pos_int=\count316
+\l__regex_success_pos_int=\count317
+\l__regex_curr_char_int=\count318
+\l__regex_curr_catcode_int=\count319
+\l__regex_last_char_int=\count320
+\l__regex_case_changed_char_int=\count321
+\l__regex_curr_state_int=\count322
+\l__regex_step_int=\count323
+\l__regex_min_active_int=\count324
+\l__regex_max_active_int=\count325
+\l__regex_replacement_csnames_int=\count326
+\l__regex_match_count_int=\count327
+\l__regex_min_submatch_int=\count328
+\l__regex_submatch_int=\count329
+\l__regex_zeroth_submatch_int=\count330
+\g__debug_trace_regex_int=\count331
+\c_empty_box=\box90
+\l_tmpa_box=\box91
+\l_tmpb_box=\box92
+\g_tmpa_box=\box93
+\g_tmpb_box=\box94
+\l__box_top_dim=\dimen280
+\l__box_bottom_dim=\dimen281
+\l__box_left_dim=\dimen282
+\l__box_right_dim=\dimen283
+\l__box_top_new_dim=\dimen284
+\l__box_bottom_new_dim=\dimen285
+\l__box_left_new_dim=\dimen286
+\l__box_right_new_dim=\dimen287
+\l__box_internal_box=\box95
+\l__coffin_internal_box=\box96
+\l__coffin_internal_dim=\dimen288
+\l__coffin_offset_x_dim=\dimen289
+\l__coffin_offset_y_dim=\dimen290
+\l__coffin_x_dim=\dimen291
+\l__coffin_y_dim=\dimen292
+\l__coffin_x_prime_dim=\dimen293
+\l__coffin_y_prime_dim=\dimen294
+\c_empty_coffin=\box97
+\l__coffin_aligned_coffin=\box98
+\l__coffin_aligned_internal_coffin=\box99
+\l_tmpa_coffin=\box100
+\l_tmpb_coffin=\box101
+\l__coffin_display_coffin=\box102
+\l__coffin_display_coord_coffin=\box103
+\l__coffin_display_pole_coffin=\box104
+\l__coffin_display_offset_dim=\dimen295
+\l__coffin_display_x_dim=\dimen296
+\l__coffin_display_y_dim=\dimen297
+\l__coffin_bounding_shift_dim=\dimen298
+\l__coffin_left_corner_dim=\dimen299
+\l__coffin_right_corner_dim=\dimen300
+\l__coffin_bottom_corner_dim=\dimen301
+\l__coffin_top_corner_dim=\dimen302
+\l__coffin_scaled_total_height_dim=\dimen303
+\l__coffin_scaled_width_dim=\dimen304
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count324
-\l__driver_tmp_box=\box103
+\l__driver_color_stack_int=\count332
+\l__driver_tmp_box=\box105
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
 Package: l3keys2e 2017/09/18 LaTeX2e option processing using LaTeX3 keys
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
 Package: xparse 2017/09/18 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count325
-\g__xparse_grabber_int=\count326
-\l__xparse_m_args_int=\count327
-\l__xparse_mandatory_args_int=\count328
-\l__xparse_v_nesting_int=\count329
+\l__xparse_current_arg_int=\count333
+\g__xparse_grabber_int=\count334
+\l__xparse_m_args_int=\count335
+\l__xparse_mandatory_args_int=\count336
+\l__xparse_v_nesting_int=\count337
 )
 Package: media9 2017/09/29 v0.86 acrobat-9/X compatible media
-\g_mix_pkgresizeflag_int=\count330
+\g_mix_pkgresizeflag_int=\count338
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\media9\pdfbase.sty"
 Package: pdfbase 2017/09/29 v0.18 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count331
-\g_pbs_oc_int=\count332
+\g_pbs_page_int=\count339
+\g_pbs_oc_int=\count340
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ocgx2\ocgbase.sty"
 Package: ocgbase 2017/09/29 v0.12 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count333
+\g_ocgbase_nd_int=\count341
 )
-\l_mix_poster_box=\box104
-\g_mix_wd_dim=\dimen301
-\g_mix_ht_dim=\dimen302
-\g_mix_dp_dim=\dimen303
-\g_mix_rmcnt_int=\count334
-\l_mix_viewcnt_int=\count335
-\g@mix@page@int=\count336
-\g_mix_resizeflag_int=\count337
-\l_mix_lineno_int=\count338
+\l_mix_poster_box=\box106
+\g_mix_wd_dim=\dimen305
+\g_mix_ht_dim=\dimen306
+\g_mix_dp_dim=\dimen307
+\g_mix_rmcnt_int=\count342
+\l_mix_viewcnt_int=\count343
+\g@mix@page@int=\count344
+\g_mix_resizeflag_int=\count345
+\l_mix_lineno_int=\count346
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \addmediapath with sig. 'm' on line 804.
 .................................................
-\l_mix_pbtn_box=\box105
-\mix@btn@dim=\dimen304
+\l_mix_pbtn_box=\box107
+\mix@btn@dim=\dimen308
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \includemedia with sig. 'O{}mm' on line 1212.
 .................................................
-\g_mix_mbtncnt_int=\count339
+\g_mix_mbtncnt_int=\count347
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1031,8 +1059,8 @@ Package: ocgbase 2017/09/29 v0.12 support package for ocgx2.sty
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks52
-\inpenc@posthook=\toks53
+\inpenc@prehook=\toks53
+\inpenc@posthook=\toks54
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin9.def"
 File: latin9.def 2015/03/17 v1.2c Input encoding file
@@ -1043,15 +1071,15 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box106
+\pgfnodeparttextbox=\box108
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
 sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen305
-\pgf@nodesepend=\dimen306
+\pgf@nodesepstart=\dimen309
+\pgf@nodesepend=\dimen310
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
 sty"
@@ -1065,10 +1093,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
-\pgffor@iter=\dimen307
-\pgffor@skip=\dimen308
-\pgffor@stack=\toks54
-\pgffor@toks=\toks55
+\pgffor@iter=\dimen311
+\pgffor@skip=\dimen312
+\pgffor@stack=\toks55
+\pgffor@toks=\toks56
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -1076,31 +1104,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
 code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count340
-\pgfplotmarksize=\dimen309
+\pgf@plot@mark@count=\count348
+\pgfplotmarksize=\dimen313
 )
-\tikz@lastx=\dimen310
-\tikz@lasty=\dimen311
-\tikz@lastxsaved=\dimen312
-\tikz@lastysaved=\dimen313
-\tikzleveldistance=\dimen314
-\tikzsiblingdistance=\dimen315
-\tikz@figbox=\box107
-\tikz@figbox@bg=\box108
-\tikz@tempbox=\box109
-\tikz@tempbox@bg=\box110
-\tikztreelevel=\count341
-\tikznumberofchildren=\count342
-\tikznumberofcurrentchild=\count343
-\tikz@fig@count=\count344
+\tikz@lastx=\dimen314
+\tikz@lasty=\dimen315
+\tikz@lastxsaved=\dimen316
+\tikz@lastysaved=\dimen317
+\tikzleveldistance=\dimen318
+\tikzsiblingdistance=\dimen319
+\tikz@figbox=\box109
+\tikz@figbox@bg=\box110
+\tikz@tempbox=\box111
+\tikz@tempbox@bg=\box112
+\tikztreelevel=\count349
+\tikznumberofchildren=\count350
+\tikznumberofcurrentchild=\count351
+\tikz@fig@count=\count352
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count345
-\pgfmatrixcurrentcolumn=\count346
-\pgf@matrix@numberofcolumns=\count347
+\pgfmatrixcurrentrow=\count353
+\pgfmatrixcurrentcolumn=\count354
+\pgf@matrix@numberofcolumns=\count355
 )
-\tikz@expandcount=\count348
+\tikz@expandcount=\count356
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarytopaths.code.tex"
@@ -1111,8 +1139,8 @@ Package: tcolorbox 2017/09/14 version 4.11 text color boxes
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks56
-\verbatim@line=\toks57
+\every@verbatim=\toks57
+\verbatim@line=\toks58
 \verbatim@in@stream=\read3
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\environ\environ.sty"
@@ -1121,17 +1149,17 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 ("C:\Program Files\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty"
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box111
-\tcb@upperbox=\box112
-\tcb@lowerbox=\box113
-\tcb@phantombox=\box114
-\c@tcbbreakpart=\count349
-\c@tcblayer=\count350
-\tcolorbox@number=\count351
-\tcb@temp=\box115
-\tcb@temp=\box116
+\tcb@titlebox=\box113
+\tcb@upperbox=\box114
+\tcb@lowerbox=\box115
+\tcb@phantombox=\box116
+\c@tcbbreakpart=\count357
+\c@tcblayer=\count358
+\tcolorbox@number=\count359
 \tcb@temp=\box117
 \tcb@temp=\box118
+\tcb@temp=\box119
+\tcb@temp=\box120
 \tcb@out=\write7
 \tcb@record@out=\write8
 )
@@ -1147,39 +1175,41 @@ File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
 librarydecorations.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code
 .tex"
-\pgfdecoratedcompleteddistance=\dimen316
-\pgfdecoratedremainingdistance=\dimen317
-\pgfdecoratedinputsegmentcompleteddistance=\dimen318
-\pgfdecoratedinputsegmentremainingdistance=\dimen319
-\pgf@decorate@distancetomove=\dimen320
-\pgf@decorate@repeatstate=\count352
-\pgfdecorationsegmentamplitude=\dimen321
-\pgfdecorationsegmentlength=\dimen322
+\pgfdecoratedcompleteddistance=\dimen320
+\pgfdecoratedremainingdistance=\dimen321
+\pgfdecoratedinputsegmentcompleteddistance=\dimen322
+\pgfdecoratedinputsegmentremainingdistance=\dimen323
+\pgf@decorate@distancetomove=\dimen324
+\pgf@decorate@repeatstate=\count360
+\pgfdecorationsegmentamplitude=\dimen325
+\pgfdecorationsegmentlength=\dimen326
 )
-\tikz@lib@dec@box=\box119
+\tikz@lib@dec@box=\box121
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 105.
+(hyperref)                removing `\\' on input line 106.
 
-(FunLBM.aux)
+
+(C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days\Fu
+nLBM.aux)
 \openout1 = `FunLBM.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 131.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 132.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1220,17 +1250,17 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count353
-\scratchdimen=\dimen323
-\scratchbox=\box120
-\nofMPsegments=\count354
-\nofMParguments=\count355
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count356
-\MPscratchDim=\dimen324
-\MPnumerator=\count357
-\makeMPintoPDFobject=\count358
-\everyMPtoPDFconversion=\toks59
+\scratchcounter=\count361
+\scratchdimen=\dimen327
+\scratchbox=\box122
+\nofMPsegments=\count362
+\nofMParguments=\count363
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count364
+\MPscratchDim=\dimen328
+\MPnumerator=\count365
+\makeMPintoPDFobject=\count366
+\everyMPtoPDFconversion=\toks60
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1245,8 +1275,8 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box121
-Package hyperref Info: Link coloring OFF on input line 131.
+\AtBeginShipoutBox=\box123
+Package hyperref Info: Link coloring OFF on input line 132.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1254,70 +1284,73 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count359
+\c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 131.
-LaTeX Info: Redefining \pageref on input line 131.
-LaTeX Info: Redefining \nameref on input line 131.
+LaTeX Info: Redefining \ref on input line 132.
+LaTeX Info: Redefining \pageref on input line 132.
+LaTeX Info: Redefining \nameref on input line 132.
 
-(FunLBM.out) (FunLBM.out)
+(C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days\Fu
+nLBM.out)
+(C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days\Fu
+nLBM.out)
 \@outlinefile=\write9
 \openout9 = `FunLBM.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 131.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 132.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 131.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 132.
 \symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 131.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 132.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/phv/m/it on input line 13
-1.
+2.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/bx/sl --> OT1/phv/m/it on input line 1
-31.
+32.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/ptm/m/n on input line 131.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 131.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 131.
+(Font)                  OT1/cmss/m/n --> OT1/ptm/m/n on input line 132.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 132.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 131.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 131.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 131.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 132.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 131.
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 131.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 131.
+(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 132.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 131.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 131.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 132.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 131.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 132.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 131.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/ptm/bx/n on input line 131.
+(Font)                  OT1/cmss/bx/n --> OT1/ptm/bx/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 131.
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 131.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 131.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 131.
-LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 131
+(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 132.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 132
 .
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `norma
 l'
 (Font)                  OT1/mathkerncmss/bx/sl --> OT1/phv/bx/it on input line 
-131.
+132.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
 
 (Font)                  OT1/mathkerncmss/bx/sl --> OT1/phv/bx/it on input line 
-131.
+132.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\dicts\translator-basi
 c-dictionary\translator-basic-dictionary-English.dict"
@@ -1342,123 +1375,134 @@ Dictionary: translator-numbers-dictionary, Language: English
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\dicts\translator-theo
 rem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
-) (FunLBM.nav)
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 137.
+)
+\c@lstlisting=\count368
 
-[1
+(C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days\Fu
+nLBM.nav)
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 138.
+ [1
 Non-PDF special ignored!
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 152.
+LaTeX Font Info:    Try loading font information for U+msa on input line 153.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 152.
+LaTeX Font Info:    Try loading font information for U+msb on input line 153.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 152.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 153.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <7> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 152.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 153.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <7> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 152.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 153.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <5> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 152.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 153.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <5> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 152.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 153.
 
 <images/dataEDF.pdf, id=61, 496.85625pt x 381.425pt>
 File: images/dataEDF.pdf Graphic file (type pdf)
  <use images/dataEDF.pdf>
-Package pdftex.def Info: images/dataEDF.pdf used on input line 152.
+Package pdftex.def Info: images/dataEDF.pdf used on input line 153.
 (pdftex.def)             Requested size: 170.71652pt x 131.0563pt.
 
 [2
 
- <./images/dataEDF.pdf>]
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/dataEDF.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 165.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 166.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 165.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 166.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 165.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 166.
 
 
 Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 165.
+d on input line 166.
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 165.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 166.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <7> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 165.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 166.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <5> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 165.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 166.
 [3
 
 ] <images/Simul1-data.pdf, id=121, 844.38864pt x 597.39685pt>
 File: images/Simul1-data.pdf Graphic file (type pdf)
 
 <use images/Simul1-data.pdf>
-Package pdftex.def Info: images/Simul1-data.pdf used on input line 200.
+Package pdftex.def Info: images/Simul1-data.pdf used on input line 201.
 (pdftex.def)             Requested size: 284.52435pt x 142.25696pt.
  [4
 
- <./images/Simul1-data.pdf>] [5
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/Simul1-data.pdf>] [5
 
-] (FunLBM.toc)
-[6
+]
+(C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days\Fu
+nLBM.toc) [6
 
-] (FunLBM.toc) [7
+]
+(C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days\Fu
+nLBM.toc) [7
 
 ] <images/LBM2.pdf, id=242, 597.23125pt x 845.1575pt>
 File: images/LBM2.pdf Graphic file (type pdf)
 
 <use images/LBM2.pdf>
-Package pdftex.def Info: images/LBM2.pdf used on input line 236.
+Package pdftex.def Info: images/LBM2.pdf used on input line 237.
 (pdftex.def)             Requested size: 142.26309pt x 142.2563pt.
 
-Overfull \hbox (0.9077pt too wide) in paragraph at lines 236--236
+Overfull \hbox (0.9077pt too wide) in paragraph at lines 237--237
 [][] 
  []
 
 [8
 
- <./images/LBM2.pdf>]
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/LBM2.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 257.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 258.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 257.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 258.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 257.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 258.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 257.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 258.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <6> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 257.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 258.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <6> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 257.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 258.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 257.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 258.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 257.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 258.
  [9
 
 ]
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 291.
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 292.
 
 
 
-Overfull \hbox (47.10579pt too wide) in alignment at lines 291--291
+Overfull \hbox (47.10579pt too wide) in alignment at lines 292--292
  [][][] []
  []
 
 [10
 
-] (FunLBM.toc) [11
+]
+(C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days\Fu
+nLBM.toc) [11
 
 ] [12
 
@@ -1467,7 +1511,7 @@ Overfull \hbox (47.10579pt too wide) in alignment at lines 291--291
 ] [14
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 366.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 367.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
@@ -1478,67 +1522,69 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 402.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 403.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 402.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 403.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <12> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 402.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 403.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 402.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 403.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <8> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 402.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 403.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <8> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 402.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 403.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 402.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 403.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 402.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 403.
 
-Overfull \hbox (39.73755pt too wide) in alignment at lines 402--402
+Overfull \hbox (39.73755pt too wide) in alignment at lines 403--403
  [][][] []
  []
 
 
-Overfull \hbox (20.43442pt too wide) in alignment at lines 402--402
+Overfull \hbox (20.43442pt too wide) in alignment at lines 403--403
  [][][] []
  []
 
 [17
 
-] (FunLBM.toc) [18
-
 ]
-<images/Fig-Simu-functions.pdf, id=565, 722.7pt x 505.89pt>
+(C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days\Fu
+nLBM.toc) [18
+
+] <images/Fig-Simu-functions.pdf, id=565, 722.7pt x 505.89pt>
 File: images/Fig-Simu-functions.pdf Graphic file (type pdf)
 
 <use images/Fig-Simu-functions.pdf>
-Package pdftex.def Info: images/Fig-Simu-functions.pdf used on input line 423.
+Package pdftex.def Info: images/Fig-Simu-functions.pdf used on input line 424.
 (pdftex.def)             Requested size: 153.64493pt x 107.55229pt.
  [19
 
- <./images/Fig-Simu-functions.pdf>]
-Overfull \hbox (27.4998pt too wide) in paragraph at lines 455--455
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/Fig-Simu-functions.pdf>]
+Overfull \hbox (27.4998pt too wide) in paragraph at lines 456--456
  [] 
  []
 
 [20
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 518.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 519.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 518.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 519.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 518.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 519.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 518.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 519.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 518.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 519.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 518.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 519.
  [21
 
 ]
@@ -1546,144 +1592,151 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 File: images/Fig-Simu-clustering2.pdf Graphic file (type pdf)
 
 <use images/Fig-Simu-clustering2.pdf>
-Package pdftex.def Info: images/Fig-Simu-clustering2.pdf used on input line 526
+Package pdftex.def Info: images/Fig-Simu-clustering2.pdf used on input line 527
 .
 (pdftex.def)             Requested size: 276.559pt x 184.37097pt.
  [22
 
- <./images/Fig-Simu-clustering2.pdf>]
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/Fig-Simu-clustering2.pdf>]
 <images/simu-init-A.pdf, id=681, 867.24pt x 433.62pt>
 File: images/simu-init-A.pdf Graphic file (type pdf)
 
 <use images/simu-init-A.pdf>
-Package pdftex.def Info: images/simu-init-A.pdf used on input line 543.
+Package pdftex.def Info: images/simu-init-A.pdf used on input line 544.
 (pdftex.def)             Requested size: 153.64493pt x 76.81755pt.
 
 <images/simu-init-B.pdf, id=682, 867.24pt x 433.62pt>
 File: images/simu-init-B.pdf Graphic file (type pdf)
 
 <use images/simu-init-B.pdf>
-Package pdftex.def Info: images/simu-init-B.pdf used on input line 543.
+Package pdftex.def Info: images/simu-init-B.pdf used on input line 544.
 (pdftex.def)             Requested size: 153.64493pt x 76.81755pt.
 
 <images/simu-init-C.pdf, id=683, 867.24pt x 433.62pt>
 File: images/simu-init-C.pdf Graphic file (type pdf)
 
 <use images/simu-init-C.pdf>
-Package pdftex.def Info: images/simu-init-C.pdf used on input line 543.
+Package pdftex.def Info: images/simu-init-C.pdf used on input line 544.
 (pdftex.def)             Requested size: 153.64493pt x 76.81755pt.
 
-Overfull \hbox (14.77988pt too wide) in paragraph at lines 543--543
+Overfull \hbox (14.77988pt too wide) in paragraph at lines 544--544
  [] 
  []
 
 [23
 
- <./images/simu-init-A.pdf> <./images/simu-init-B.pdf> <./images/simu-init-C.pd
-f>] (FunLBM.toc) [24
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/simu-init-A.pdf> <C:/Users/François-XavierJollo/Documents/GitHub/talks/2
+018-11-21--PGMO-days/images/simu-init-B.pdf> <C:/Users/François-XavierJollo/Do
+cuments/GitHub/talks/2018-11-21--PGMO-days/images/simu-init-C.pdf>]
+(C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days\Fu
+nLBM.toc) [24
 
 ]
 File: images/dataEDF.pdf Graphic file (type pdf)
  <use images/dataEDF.pdf>
-Package pdftex.def Info: images/dataEDF.pdf used on input line 560.
+Package pdftex.def Info: images/dataEDF.pdf used on input line 561.
 (pdftex.def)             Requested size: 170.71652pt x 131.0563pt.
 
 <images/EDF.jpg, id=759, 145.0218pt x 59.0205pt>
 File: images/EDF.jpg Graphic file (type jpg)
  <use images/EDF.jpg>
-Package pdftex.def Info: images/EDF.jpg used on input line 560.
+Package pdftex.def Info: images/EDF.jpg used on input line 561.
 (pdftex.def)             Requested size: 48.93721pt x 19.91684pt.
  [25
 
- <./images/EDF.jpg>]
-<images/graph-bic-heatmap.pdf, id=786, 753.81625pt x 435.6275pt>
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/EDF.jpg>] <images/graph-bic-heatmap.pdf, id=786, 753.81625pt x 435.6275pt
+>
 File: images/graph-bic-heatmap.pdf Graphic file (type pdf)
 
 <use images/graph-bic-heatmap.pdf>
-Package pdftex.def Info: images/graph-bic-heatmap.pdf used on input line 568.
+Package pdftex.def Info: images/graph-bic-heatmap.pdf used on input line 569.
 (pdftex.def)             Requested size: 276.559pt x 159.81699pt.
  [26
 
- <./images/graph-bic-heatmap.pdf>]
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/graph-bic-heatmap.pdf>]
 <images/graph-dates.pdf, id=818, 753.81625pt x 435.6275pt>
 File: images/graph-dates.pdf Graphic file (type pdf)
 
 <use images/graph-dates.pdf>
-Package pdftex.def Info: images/graph-dates.pdf used on input line 576.
+Package pdftex.def Info: images/graph-dates.pdf used on input line 577.
 (pdftex.def)             Requested size: 276.559pt x 159.81699pt.
  [27
 
- <./images/graph-dates.pdf>]
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/graph-dates.pdf>]
 <images/graph-adjacency.pdf, id=849, 505.89pt x 505.89pt>
 File: images/graph-adjacency.pdf Graphic file (type pdf)
 
 <use images/graph-adjacency.pdf>
-Package pdftex.def Info: images/graph-adjacency.pdf used on input line 584.
+Package pdftex.def Info: images/graph-adjacency.pdf used on input line 585.
 (pdftex.def)             Requested size: 276.56528pt x 199.17207pt.
  [28
 
- <./images/graph-adjacency.pdf>]
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/graph-adjacency.pdf>]
 <images/graph-cartes.png, id=878, 753.5352pt x 435.5472pt>
 File: images/graph-cartes.png Graphic file (type png)
 
 <use images/graph-cartes.png>
-Package pdftex.def Info: images/graph-cartes.png used on input line 594.
+Package pdftex.def Info: images/graph-cartes.png used on input line 595.
 (pdftex.def)             Requested size: 276.559pt x 159.84734pt.
  [29
 
- <./images/graph-cartes.png>] [30
+ <C:/Users/François-XavierJollo/Documents/GitHub/talks/2018-11-21--PGMO-days/i
+mages/graph-cartes.png>] [30
 
 ]
-\tf@nav=\write10
-\openout10 = `FunLBM.nav'.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 636.
 
-\tf@toc=\write11
-\openout11 = `FunLBM.toc'.
 
-\tf@snm=\write12
-\openout12 = `FunLBM.snm'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 613.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 613.
- (FunLBM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 613.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 613.
-Package rerunfilecheck Info: File `FunLBM.out' has not changed.
-(rerunfilecheck)             Checksum: 399E52526268FAB6775AB08AB70E1A44;250.
- ) 
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Runaway argument?
+! Paragraph ended before \lst@next was complete.
+<to be read again> 
+                   \par 
+l.636 \end{frame}
+                 
+? x
+ 
 Here is how much of TeX's memory you used:
- 32430 strings out of 493323
- 659855 string characters out of 3139017
- 731597 words of memory out of 3000000
- 35258 multiletter control sequences out of 15000+200000
- 593017 words of font info for 147 fonts, out of 3000000 for 9000
+ 34043 strings out of 493323
+ 682709 string characters out of 3139017
+ 752692 words of memory out of 3000000
+ 36856 multiletter control sequences out of 15000+200000
+ 593233 words of font info for 148 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,21n,75p,10436b,553s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam5.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
-es/utmr8a.pfb>
-Output written on FunLBM.pdf (30 pages, 1938387 bytes).
+ 56i,21n,75p,10510b,994s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam5.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
+/utmr8a.pfb>
+Output written on FunLBM.pdf (30 pages, 1938833 bytes).
 PDF statistics:
- 1019 PDF objects out of 1200 (max. 8388607)
+ 1020 PDF objects out of 1200 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
