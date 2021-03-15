@@ -4,13 +4,18 @@ td {
 }
 </style>
 
+## 2021
+
+| Lieu | Date | Titre |
+|:----|-----:|:--|
+| -- | -- | -- |
 
 ## 2018
 
 | Lieu | Date | Titre |
 |:----|-----:|:--|
 | [PGMO days](2018-11-21--PGMO-days/FunLBM.pdf) | 21 nov 2018 | Functional Latent Block Model for functional data co-clustering |
-| [MAP5](2018-03-23--Seminaire-MAP5/FunLBM.pdf) | 23 mar 2018 | Functional Latent Block Model  for functional data co-clustering |
+| [MAP5](2018-03-23--Seminaire-MAP5/FunLBM.pdf) | 23 mars 2018 | Functional Latent Block Model  for functional data co-clustering |
 
 ## 2017
 
