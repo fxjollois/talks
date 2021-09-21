@@ -1,3 +1,9 @@
+<!--
+A garder pour création PDF : Markdown to Beamer
+https://infolit.be/docs/slides_md.pdf
+pandoc -t beamer -o fichier.pdf fichier.md
+-->
+
 <style>
 td {
   min-width: 80px;
