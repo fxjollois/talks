@@ -14,6 +14,7 @@ td {
 
 | Lieu | Date | Titre |
 |:----|-----:|:--|
+| [MSH-LSE](2021-09-24--MSH-LSE) | 24 sep 2021 | Visualisation de données avec ObservableHQ et d3 |
 | -- | -- | -- |
 
 ## 2018
