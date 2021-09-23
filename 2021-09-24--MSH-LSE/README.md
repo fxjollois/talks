@@ -73,13 +73,6 @@ Parce que développer en Javascript peut être assez lourd souvent
 Ces 2 possibilités sont orientées développement informatique de page web, pas dataviz
 
 ---
-class: inverse
-
-# Petite démonstration simple
-
-<a href="https://observablehq.com/@fxjollois/utilisation-de-observable" target="_blank">Présentation de l'utilisation de Observable</a>
-
----
 # Les (gros) plus de l'outil
 
 - Fonctionnement type notebook parfaitement adapté au développement d'une dataviz
@@ -98,14 +91,6 @@ class: inverse
     - Et même [plus de possibilité](https://observablehq.com/@observablehq/introduction-to-data) concernant les données
 - [`Plot`](https://observablehq.com/@observablehq/plot) pour créer facilement des graphiques
     - A importer avec la commande `import {Plot} from @observablehq/plot`
-
----
-class: inverse
-
-# Démonstration des `Inputs`
-
-<a href="https://observablehq.com/@fxjollois/presentation-des-inputs" target="_blank">Présentation de quelques `Inputs`</a>
-
 
 ---
 class: middle, inverse
@@ -583,17 +568,250 @@ Répartition des logements en location par **AirBnB** sur Paris le 2 septembre 2
 </iframe>
 
 
----
-class: middle, inverse
-
-# Les deux
-
----
-??
-
 
 ---
 class: middle, inverse
 
-# Exemple de réalisations
+# Création d'un premier notebook
+
+<a href="https://observablehq.com/new" target="_blank">Nouveau notebook</a>
+
+### A noter
+
+- 1 bloc de commande = 1 cellule 
+- Importation de la librairie `d3.js` dans une cellue
+
+```js
+d3 = require("d3")
+```
+
+---
+# Importation des données
+
+Données synthétiques de la production scientifique mondiale de 1996 à 2019 
+
+- Source : [SCImago Journal & Country Rank](http://www.scimagojr.com/))
+- Fichier CSV  : <https://fxjollois.github.io/donnees/scimagojr/scimagojr.csv>
+
+```js
+data = await d3.csv("https://fxjollois.github.io/donnees/scimagojr/scimagojr.csv", 
+                    d3.autoType)
+```
+
+Quelques explications sur le code ci-dessous : 
+
+- `d3.csv()` : permet d'importer les données du fichier passé en premier paramètre ;
+- `await` : permet d'attendre que le fichier soit téléchargé pour exécuter l'affectation ;
+- `d3.autoType` : permet de transformer les données en entier et/ou numérique lorsque cela est possible.
+
+---
+# Affichage des données
+
+Utilisation de `Inputs.table()` permettant l'affichage de données JSON
+
+```js
+Inputs.table(data)
+```
+
+---
+# TOP5 sur une année au choix
+
+On veut afficher le top 5 sur la production de documents (tri initialement dans les données), pour une année choisie par l'utilisateur.
+
+## 2 étapes :
+
+- Choix de l'année
+- Affichage des données selon l'année choisie
+
+---
+# Choix de l'année
+
+```js
+viewof annee = Inputs.select(
+  [...new Set(d3.map(data, d => d.Year))], 
+  {label: "Année choisie", value: d3.max(data, d => d.Year)}
+)
+```
+
+- `d3.map()` : permet de restructurer le tableau passé en premier paramètre, selon une fonction passée en deuxième paramètre
+    - ici, on ne garde que l'année
+- `new Set()` : permet de créer un ensemble de valeur unique à partir d'un tableau
+    - renvoie un `Set` normalement
+    - le mettre entre `[]` permet de le transformer en `Array`
+- `Inputs.select()` : permet de créer un sélecteur 
+    - dans les options, on peut indiquer un label et la valeur sélectionnée
+    - `d3.max()` permet de récupérer le maximum dans un tableau, basé sur un critère renvoyé par une fonction si besoin
+    - la variable `annee` vaudra dans ce document l'année choisie par l'utilisateur
+
+---
+# Affichage de la sélection
+
+```js
+Inputs.table(data.filter(d => d.Year == annee).slice(0, 5))
+```
+
+- `filter()` : filtre donc un tableau en ne gardant que les éléments dont la fonction passée en paramètre renvoie vrai
+    - ici, que les éléments correspondant à l'année choisie
+- `d3.slice()` : permet de ne récupérer que certains éléments du tableau
+    - ici, les 5 premiers (de l'élément 0 à l'élément 5-1)
+    
+    
+---
+### Ajout du choix de la variable et de l'ordre (ascendant/descendant)
+
+```js
+viewof annee2 = Inputs.select(
+  [...new Set(d3.map(data, d => d.Year))], 
+  {label: "Année choisie", value: d3.max(data, d => d.Year)}
+)
+```
+
+```js
+viewof critere = Inputs.select(Object.keys(data[0]).slice(1), 
+                               {label: "Critère choisi"})
+```
+
+```js
+viewof tri = Inputs.radio(["ascendant", "descendant"], 
+                          {label: "Tri de tri", value: "ascendant"})
+```
+
+```js
+{
+  var data_filtre = data.filter(d => d.Year == annee2),
+      fonction_tri = tri == "descendant" ? d3.descending : d3.ascending;
+  return Inputs.table(d3.sort(data_filtre, 
+                              (a, b) => fonction_tri(a[critere], b[critere])).slice(0, 5))
+}
+```
+
+---
+# Evolution de la production depuis 1996
+
+> Avec les possibilités d'ObservableHQ
+
+### Importation de procédures graphiques développées par ObservableHQ
+
+```js
+import {Plot} from @observablehq/plot
+```
+
+### Choix du pays 
+
+```js
+viewof pays = Inputs.select([...new Set(d3.map(data, d => d.Country).sort())], 
+                            {label: "Pays choisi", value: "France"})
+```
+
+---
+### Réalisation du graphique
+
+```js
+Plot.plot({
+  marks: [
+    Plot.line(data.filter(d => d.Country == pays), {x: "Year", y: "Documents"})
+  ],
+  y: {
+    label: "Nombre de documents produits par année pour : " + pays,
+    grid: true,
+    tickFormat: "~s"
+  }
+})
+```
+
+- `marks`: permet de déterminer les tracés à réaliser
+    - `Plot.line` : créer donc une ligne, avec les variables `x` et `y` définies en paramètres
+- `y` : permet de personnaliser l'axe des ordonnées
+
+
+---
+# Comparaison entre pays choisis
+
+```js
+viewof pays_liste = Inputs.select(
+    [...new Set(d3.map(data, d => d.Country))].sort(), 
+    {
+        label: "Pays choisis (Ctrl+clic ou Shift+clic pour en choisir plusieurs)", 
+        value: ["France"], 
+        multiple: true
+    }
+)
+```
+
+- L'option `multiple: true` permet de définir qu'il est possible de choisir plusieurs valeurs
+
+---
+### Réalisation du graphique
+
+```js
+Plot.plot({
+  marks: [
+    Plot.line(d3.filter(data, d => pays_liste.includes(d.Country)), 
+              Plot.normalizeY({x: "Year", y: "Documents", stroke: "Country"})),
+    Plot.text(d3.filter(data, d => pays_liste.includes(d.Country)), 
+              Plot.selectLast(Plot.normalizeY({
+                  x: "Year",
+                  y: "Documents",
+                  stroke: "Country",
+                  text: "Country",
+                  textAnchor: "start",
+                  dx: 3
+                                              }))
+             )
+  ],
+  y: {
+    label: "Evolution du nombre de documents produits (en %)",
+    grid: true,
+    tickFormat: x => d3.format("+d")((x - 1) * 100)
+  },
+  marginRight: 90
+})
+```
+
+---
+### Quelques explications
+
+- `Plot.normalizeY()` : permet de normaliser en base 100 au début de l'axe X, pour chaque valeur de `stroke`
+    - `stroke` : permet de définir que la couleur dépend du pays
+- `Plot.text` : permet d'ajouter le nom du pays en fin de ligne
+    - `Plot.selectLast()` : indique qu'on veut la dernière valeur
+- `tickFormat` : calcule les valeurs en +/- et en % par rapport au début de la période
+- `marginRight` : définit la marge à droite
+
+---
+# Evolution des rangs du TOP10
+
+### Sélection des éléments du tableau qui sont dans le TOP 10 de leur année
+
+```js
+data_top10 = d3.map(data, d => { var e = d; e.Rank = d.Rank <= 10 ? d.Rank : NaN; return e; });
+```
+
+### Réalisation du graphique
+
+```js
+Plot.plot({
+  marks: [
+    Plot.line(data_top10, {x: "Year", y: "Rank", stroke: "Country", strokeWidth: 3}),
+    Plot.dot(data_top10, {x: "Year", y: "Rank", stroke: "Country", strokeWidth: 3}),
+    Plot.text(data_top10, Plot.selectLast({x: "Year", y: "Rank", z: "Country", 
+                                           text: "Country", textAnchor: "start", dx: 5}))
+  ],
+  y: {reverse: true},
+  marginRight: 90
+})
+```
+
+---
+# Amélioration du graphique via `d3.js`
+
+<a href="https://observablehq.com/@fxjollois/seminaire-msh-lse-du-24-septembre-2021" target="_blank">Notebook du séminaire</a>
+
+Avec la librairie `d3.js`, on peut améliorer le résultat :
+
+- Définition d'interaction sur le graphique 
+    - Ici, le passage de la souris sur un point nous indique le pays, l'année et le nombre de documents 
+- Affichage des pays ayant fait un passage dans le TOP 10 mais pas dans celui de 2019
+
+
 
