@@ -10,14 +10,19 @@ td {
 }
 </style>
 
+## 2026
+
+| Lieu | Date | Titre |
+|:----|-----:|:--|
+| [LIPADE](https://docs.google.com/presentation/d/e/2PACX-1vQ-_-cNnF_LiGTzT8FH_EnfDLBd8dygGIS0TVoXG5SQhpofWOBw3FDr1QcAkohxr-1SD2hRNgtPDTxe/pub?start=false&loop=false&delayms=3000) | 25 juin 2026 | Science des Données - vulgarisation pour lycéens |
+| -- | -- | -- |
+
 ## 2025
 
 | Lieu | Date | Titre |
 |:----|-----:|:--|
 | [LIPADE](https://docs.google.com/presentation/d/e/2PACX-1vQ-_-cNnF_LiGTzT8FH_EnfDLBd8dygGIS0TVoXG5SQhpofWOBw3FDr1QcAkohxr-1SD2hRNgtPDTxe/pub?start=false&loop=false&delayms=3000) | 16 juin 2025 | Science des Données - vulgarisation pour lycéens |
 | -- | -- | -- |
-
-https://docs.google.com/presentation/d/e/2PACX-1vQ-_-cNnF_LiGTzT8FH_EnfDLBd8dygGIS0TVoXG5SQhpofWOBw3FDr1QcAkohxr-1SD2hRNgtPDTxe/pub?start=false&loop=false&delayms=3000
 
 
 ## 2021
